@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GeeksterPok</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="main">
+        <h1> <img src="./pokemon-squirtle.gif" alt=""> <img style="width: 20rem;" src="./pokemon.gif" alt=""> <img src="./pikachu-pokemon.gif" alt=""></h1>
+        <div class="selectItem">
+          <select name="type" id="type">
+            <option value="grass">Grass</option>
+            <option value="fire">Fire</option>
+            <option value="poison">Poison</option>
+            <option value="water">Water</option>
+            <option value="bug">Bug</option>
+            <option value="normal">Normal</option>
+            <option value="electric">Electric</option>
+            <option value="ground">Ground</option>
+            <option value="fairy">Fairy</option>
+            <option value="fighting">Fighting</option>
+            <option value="psychic">Psychic</option>
+            <option value="rock">Rock</option>
+            <option value="ghost">Ghost</option>
+            <option value="ice">Ice</option>
+            <option value="dragon">Dragon</option>
+          </select>
+          <button id="filter">Filter By Type</button>
+          <a id="resetBtn" href="index.html">Reset Page</a>
+        </div>
+        <input type="text" placeholder="Search Pokemon by name" id="search" />
+      </div>
+      <div id="pokemon-card-container"></div>
+    <script src="./script.js"></script>
+</body>
+</html>
